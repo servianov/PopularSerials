@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skydoves.transformationlayout.TransformationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/transformation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:transformation_direction="auto"
+    app:transformation_duration="500"
+    app:transformation_fadeMode="cross"
+    app:transformation_fitMode="auto">
+
+<nick.servianov.serialskotlin.CustomViews.SerialItemView
+    android:id="@+id/serial_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</com.skydoves.transformationlayout.TransformationLayout>
+

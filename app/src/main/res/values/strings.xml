@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SerialsKotlin</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="no_data_to_display">No data to display</string>
+    <string name="view_similar">view similar</string>
+    <string name="popular_serials">Popular serials</string>
+    <string name="try_again">Try again</string>
+    <string name="todo">TODO</string>
+</resources>
